@@ -12,11 +12,11 @@
     <article>
         <h1>Send Email</h1>
         <section>
-            <input type="text" id="sendername" placeholder="Sender Name">
-            <input type="text" id="to" placeholder="Send to">
-            <input type="text" id="replyto" placeholder="Reply to (email)"> <br>
-            <input type="text" id="subject" placeholder="Subject"> <br>
-            <textarea id="message" cols="40" rows="8"></textarea> <br>
+            <input type="text" required id="sendername" placeholder="Who send the mail?">
+            <input type="text" required id="to" placeholder="Send to (mail)">
+            <input type="text" required id="replyto" placeholder="Reply to (email)"> <br>
+            <input type="text" required id="subject" placeholder="Subject of the mail"> <br>
+            <textarea id="message" cols="40" rows="8" placeholder="Write the message here. . ."></textarea> <br>
         </section>
         <button onclick="sendMail();">Send</button>
     </article>
