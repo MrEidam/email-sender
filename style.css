@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #112;
+}
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+article{
+    padding: 2.5rem 5rem;
+    background-color: #ffffe6;
+    box-shadow: 0 25px 200px #ffffffcc;
+}
+article section{
+    position: relative;
+}
+article section input{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background: #f4d7f4;
+    filter: drop-shadow(8px 6px 4px #555);
+}
+article section #subject{
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+article section textarea{
+    width: 100%;
+    margin: 4ch 0;
+    padding: 0.5rem;
+    resize: none;
+    border: none;
+    box-shadow: inset 0 0 50px #cd0;
+    filter: drop-shadow(8px 6px 4px #555);
+}
+article button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 50px;
+    font-size: 2em;
+    transition: 0.5s;
+    border: none;
+    border-radius: 25px;
+    filter: drop-shadow(8px 6px 4px #555);
+}
+article button:hover{
+    width: 300px;
+    transform: translateX(-50%);
+    background: #c00;
+    color: #fff;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
